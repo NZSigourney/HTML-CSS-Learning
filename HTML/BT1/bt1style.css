@@ -1,0 +1,32 @@
+/* CSS Document */
+
+body 
+{
+	background-image: url("IMG/images.gif");
+	color: black;
+}
+
+title-ft
+{
+	font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    color: cadetblue;
+}
+
+fontlg
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 23px;
+	font-style: italic, oblique;
+	color: red;
+	background-color: antiquewhite;
+}
+
+fontlg2
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 20px;
+	font-style: italic;
+	color: black;
+	background-color: antiquewhite;
+}
