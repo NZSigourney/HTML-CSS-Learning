@@ -1,0 +1,32 @@
+titleHeader
+{
+    color:black;
+    background-color: gainsboro;
+    font-style: italic, oblique;
+    font-size: 30px;
+}
+
+fontBody
+{
+    color:black;
+    font-size: medium;
+    font-style: normal;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+fontTaoThao
+{
+    font-family: 'Times New Roman';
+}
+
+taoThao
+{
+    font-size: 30px;
+    color: red;
+    font-style: italic, inherit, oblique;
+}
+szTaoThao
+{
+    font-size: 23px;
+}
