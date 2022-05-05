@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link
+	  rel="stylesheet"
+	  href="stylesheet/style.css"
+	  />
+<title>Bài tập về nhà</title>
+</head>
+
+<body>
+<center>
+		<title-1><b>HTML Thực hành</b></title-1><br>
+		<br><u><title-font>Bài thực hành số 1:</title-font></u>
+		<center-font>
+			Giới thiệu bản thân
+		</center-font>
+	</center>
+	<left>
+		<title-font>
+			<ol type="I">
+				<li>
+				Thông tin:
+					<left-font-info>
+						<ul type="disc">
+							<li><strong>Name</strong>: Thái Duy Vũ </li>
+							<li><strong>Lớp</strong>: 21CNTT1B</li>
+							<li><strong>Tuổi</strong>: 19</li>
+							<li><strong>Sở thích</strong>: Chơi game</li>
+						</ul>
+					</left-font-info>
+				</li>
+				<li>
+					Mạng xã hội cá nhân:
+					<left-font-born>
+						<ul type="disc">
+							<li><strong>Trường</strong>: <a href="https://danavtc.edu.vn/">Cao Đẳng Nghề Đà Nẵng</a></li>
+							<li><strong>Facebook</strong>: <a href="https://www.facebook.com/tobi.kun.0304/">Triệu Tử Long</a></li>
+						</ul>
+					</left-font-born>					
+				</li>
+			</ol>
+		</title-font>
+	</left>
+	<hr
+		align="center"
+		color="black"
+		/>
+	<center>
+		<script
+				language="javascript"
+				src="Js/main.js" ></script><br>
+		
+		<input
+			   type="number"
+			   id="Ages"
+			   value=""/>
+		<button onclick="setNumberAges">Press here!</button>
+		<script
+				language="javascript"
+				type="text/javascript">
+			function setNumberAges(number){
+				if (number < 18){
+					alert("Only > 18+!")
+				}
+				document.getElementById("ages").value
+			}
+		</script>
+	</center>
+</body>
+</html>
