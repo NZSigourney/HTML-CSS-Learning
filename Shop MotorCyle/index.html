@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="../Shop MotorCyle/StyleSheet/stack.css">
+    <link rel="stylesheet" href="StyleSheet/Navbar.css">
+    <link rel="stylesheet" href="StyleSheet/Cart.css">
+    <!-- Navbar -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Shop xe máy Thiên Long</title>
+</head>
+<body>
+    <header>
+        <!--<nav>
+            <ul class="nav-links">
+                <li><a href="../Shop MotorCyle/others/Contact.html">About</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>            
+        </nav>
+        <a href="https://www.facebook.com/tobi.kun.0304" class="cta"><button>Contact</button></a>
+        <i class="bx bx-shopping-bag" id="cart-icon"></i>
+        <div class="cart">
+            
+        </div>-->
+        <nav>
+            <div class="img-nav">
+                <img src="../Shop MotorCyle/images/large.png" alt="logocycle" class="logo">
+            </div>
+            <div class="content-nav">
+                <ul>
+                    <li><a href="#">Trang Chủ</a></li>
+                    <li><a href="#">Sản Phẩm</a></li>
+                    <li><a href="#">Liên Hệ</a></li>
+                    <li><a href="#">Giới Thiệu</a></li>
+                </ul>
+                <form>
+                    <input type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+            </div>
+            <!-- The Modal -->
+            <button id="cart">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                Giỏ Hàng
+            </button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Giỏ Hàng</h5>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                            <span class="cart-price cart-header cart-column">Giá</span>
+                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                        </div>
+                        <div class="cart-items">
+
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Tổng Cộng:</strong>
+                            <span class="cart-total-price">0VNĐ</span>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                        <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Shop -->
+    <div id="wrapper">
+        <div class="headline">
+            <h3>Chào Mừng đến cửa hàng xe máy Thiên Long</h3>
+        </div>
+        <ul class="products">
+            <li>
+                <div class="product-items">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../Shop MotorCyle/images/Exciter155/Born-to-Ride-004.png" alt="">
+                        </a>
+                        <a href="https://yamahaanphu.com/san-pham/exciter-155-vva-2022/yamaha-exciter-155-vva-2022-phien-ban-cao-cap.html" class="buy-now">BUY</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-name">Exciter 155 - 2022</a>
+                    <div class="product-price">47.290.000 VND</div>
+                </div>
+            </li>
+            <li>
+                <div class="product-items">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://cdn.honda.com.vn/motorbikes/May2022/yXVDCgQDZJcYqcCZPzyQ.png" alt="">
+                        </a>
+                        <a href="https://www.honda.com.vn/xe-may/san-pham/air-blade-125160" class="buy-now">BUY</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-name">Air Blade 125/160</a>
+                    <div class="product-price">42.090.000 VNĐ</div>
+                </div>
+            </li>
+            <li>
+                <div class="product-items">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://cdn.honda.com.vn/motorbike-versions/December2021/r77hh0deQsw1chyT8pK3.png" alt="">
+                        </a>
+                        <a href="https://www.honda.com.vn/xe-may/san-pham/cb650r-phien-ban-2021" class="buy-now">BUY</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-name">CB650R phiên bản 2021</a>
+                    <div class="product-price">246.490.000 VNĐ</div>
+                </div>
+            </li>
+            <li>
+                <div class="product-items">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://cdn.honda.com.vn/motorbike-versions/April2022/Hna2W2be33vMDdhiJ9VB.png" alt="">
+                        </a>
+                        <a href="https://www.honda.com.vn/xe-may/san-pham/rebel-500-phien-ban-2022" class="buy-now">BUY</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-name">Rebel 1100 phiên bản 2022 DCT</a>
+                    <div class="product-price">499.000.000 VNĐ</div>
+                </div>
+            </li>
+            <li>
+                <div class="product-items">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://cdn.honda.com.vn/motorbikes/November2020/WvWf9Ur0YzePFWfz4X6u.png" alt="">
+                        </a>
+                        <a href="https://www.honda.com.vn/xe-may/san-pham/blade-110" class="buy-now">BUY</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-name">Blade 110</a>
+                    <div class="product-price">18.841.091 VNĐ</div>
+                </div>
+            </li>
+            <li>
+                <div class="product-items">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://cdn.honda.com.vn/motorbike-versions/December2021/AjAslqMuYpko2d6wmuEs.png" alt="">
+                        </a>
+                        <a href="https://www.honda.com.vn/xe-may/san-pham/winner-x" class="buy-now">BUY</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-name">Winner X</a>
+                    <div class="product-price">46.160.000 VNĐ</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
